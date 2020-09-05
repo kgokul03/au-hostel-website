@@ -137,6 +137,11 @@ header::after {
   color: #ee1515;
 }
 
+.navbar-collapse .navbar-nav .nav-item .dropdown-toggle:hover{
+  color: #ee1515;
+}
+
+
 .cart,
 .login-icon,
 .search-icon {
@@ -215,6 +220,16 @@ form button.btn-primary:hover {
 .hero .slide-content .btn:hover{
   background-color: rgba(24, 9, 53, 0.77);
 }
+
+.hero .slide-content .btn:hover{
+  background-color: #007bff;
+}
+
+.single-slide a:hover{
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
 
 .hero .slide-content .btn:last-child {
   margin-left: 30px;
@@ -315,6 +330,14 @@ form button.btn-primary:hover {
   margin-right: 30px;
 }
 
+.cta-content .subscribe-btn a:hover{
+  /* align-self: flex-end;
+  margin-right: 30px; */
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+
 /*-----------------------------------
     1 - Services
 ------------------------------------*/
@@ -397,6 +420,12 @@ form button.btn-primary:hover {
   right: 0;
 }
 
+.featured .container .row .col-md-6 a:hover{
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+
 
 
 /*-----------------------------------
@@ -455,6 +484,11 @@ form button.btn-primary:hover {
 
 .post-content a:hover {
   color: #26264b;
+}
+
+.container .text-center a:hover{
+  background-color: #007bff;
+  border-color:#007bff;
 }
 
 .post-content .post-btn {

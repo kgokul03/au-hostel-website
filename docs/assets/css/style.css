@@ -162,7 +162,7 @@ header::after {
 form input.btn-primary:hover,
 form button.btn-primary:hover {
   background-color: #fff;
-  color: #ee1515;
+  color: #007BFF;
 }
 
 /*-----------------------------------
@@ -187,7 +187,7 @@ form button.btn-primary:hover {
 }
 
 .hero .slide-content span {
-  color: #ee1515;
+  color: #007BFF;
 }
 
 .hero .slide-content h1 {
@@ -360,7 +360,7 @@ form button.btn-primary:hover {
 }
 
 .title .title-primary {
-  color: #ee1515;
+  color: #4336FB;
 }
 
 .services {
@@ -505,7 +505,7 @@ form button.btn-primary:hover {
 
 .post-content .post-btn:hover {
   color: #fff;
-  background-color: #ee1515;
+  background-color: #007BFF;
 }
 
 /*-----------------------------------
@@ -669,7 +669,7 @@ form button.btn-primary:hover {
 
 .single-pricing:hover {
   border: 4px solid #fff;
-  box-shadow: 0px 10px 18px 0px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 10px 18px 0px #007BFF;
   margin: 19px 0 -4px;
 }
 
@@ -679,7 +679,7 @@ form button.btn-primary:hover {
 
 .single-pricing:hover .desc {
   color: #fff;
-  border-bottom: 2px solid rgba(245, 245, 245, 0.322);
+  border-bottom: 2px solid #007BFF;
 }
 
 .single-pricing:hover svg {
@@ -689,14 +689,14 @@ form button.btn-primary:hover {
 }
 
 .single-pricing:hover .btn {
-  box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.35);
+  box-shadow: 0px 3px 7px 0px #007BFF;
 }
 
 /*-----------------------------------
     1 - Testimonials
 ------------------------------------*/
 .testimonial-and-clients {
-  background: url(../images/test-clients-bg.png) center center/cover no-repeat #ee1515;
+  background: url(../images/test-clients-bg.png) center center/cover no-repeat #26264b;
 }
 
 .testimonials {
@@ -812,7 +812,7 @@ footer {
 }
 
 .single-widget i {
-  color: #ee1515;
+  color: #007BFF;
 }
 
 .single-widget h6 {
@@ -889,7 +889,7 @@ span {
 .tags-widget a:hover {
   text-decoration: none;
   color: #26264b;
-  background-color: #ee1515;
+  background-color: #007BFF;
 }
 
 .subscribe-widget form {
@@ -912,7 +912,7 @@ span {
 }
 
 .subscribe-widget button {
-  background: #ee1515;
+  background: #007BFF;
   border: none;
   padding: 9px 14px;
   border-top-right-radius: 10px;
@@ -949,7 +949,7 @@ span {
 }
 
 .subscribe-widget .social-nav a:hover {
-  background-color: #ee1515;
+  background-color: #007BFF;
 }
 
 /*-----------------------------------
@@ -957,7 +957,7 @@ span {
 ------------------------------------*/
 .foot-note {
   padding: 35px 0;
-  background-color: #ee1515;
+  background-color: #007BFF;
   color: #26264b;
 }
 

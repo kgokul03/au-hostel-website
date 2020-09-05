@@ -1,3 +1,8 @@
 4th September
 ========================
 1. git basics
+
+5th September 
+========================
+1. changed hover color for boxes and reloader
+2. changed the links color (see more color)

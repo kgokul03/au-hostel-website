@@ -816,11 +816,11 @@ footer {
     1 - Footer Widgets
 ------------------------------------*/
 .footer-widgets {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 .footer-widgets .col-md-6 .single-widget:not(:first-child) .widget-tiltle {
-  margin: 40px 0 30px;
+  margin-top: 20px ;
 }
 
 .single-widget {
@@ -831,7 +831,7 @@ footer {
   font-size: 17px;
   text-transform: uppercase;
   color: #fff;
-  margin-bottom: 45px;
+  margin-bottom: 0;
 }
 
 .single-widget i {
@@ -843,7 +843,7 @@ footer {
 }
 
 .single-widget .media {
-  margin-bottom: 20px;
+  margin-bottom: 0;
 }
 
 .contact-widget a {
@@ -979,7 +979,7 @@ span {
     1 - Foot Note
 ------------------------------------*/
 .foot-note {
-  padding: 35px 0;
+  padding: 15px 0;
   background-color: #007BFF;
   color: #26264b;
 }

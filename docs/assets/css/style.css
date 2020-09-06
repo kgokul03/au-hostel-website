@@ -80,7 +80,17 @@ header::after {
   margin-right: 8px;
 }
 
-.navbar-brand h1 {
+.navbar-brand img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50%;
+}
+
+.navbar-brand h3 {
+  font-size: calc(0.5rem + 0.6vw);
+  padding-top: 5px;
+  text-align: center;
   margin: 0;
 }
 

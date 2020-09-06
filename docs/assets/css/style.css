@@ -392,6 +392,19 @@ form button.btn-primary:hover {
   margin-bottom: 10px;
 }
 
+.mess-details{
+  text-align: center;
+}
+
+.secondrow{
+  text-align: center;
+}
+
+.secondrow .col-sm-6{
+  display: inline-block;
+}
+
+
 /*-----------------------------------
     1 - Featured
 ------------------------------------*/

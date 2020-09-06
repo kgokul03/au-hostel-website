@@ -1005,16 +1005,17 @@ span {
   border-radius: 0px 0px 0px 50px; 
   margin: 20px;
   box-shadow: 15px 15px #007bff;
+  padding: 10vh 5vw 10vh 5vw;
 }
 @media(max-width: 1200px){
   .glass{
-    width: 700px;
+    width: 800px;
     height: 500px;
   }
 }
 @media(max-width: 1100px){
   .glass{
-    width: 600px;
+    width: 700px;
     height: 500px;
   }
 }

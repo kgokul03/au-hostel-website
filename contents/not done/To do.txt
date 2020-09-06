@@ -1,0 +1,6 @@
+1. Work on hostels logo
+2. Remove Background in warden rows
+3. place only 2 permanent pics in warden photo field rather than 4 moving ones.
+4. Align calsses for mess
+5. Remove doj and phone number in RC list and remove image for them also change the heading to Resident Counselor 
+6. Alter the footer - remove un necessary details.

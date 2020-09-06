@@ -786,7 +786,7 @@ form button.btn-primary:hover {
     1 - Footer
 ------------------------------------*/
 footer {
-  background: url(../images/footer-bg.png) center center/cover no-repeat #26264b;
+  background: #26264b;
 }
 
 /*-----------------------------------

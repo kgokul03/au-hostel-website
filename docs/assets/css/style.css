@@ -80,7 +80,17 @@ header::after {
   margin-right: 8px;
 }
 
-.navbar-brand h1 {
+.navbar-brand img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50%;
+}
+
+.navbar-brand h3 {
+  font-size: calc(0.5rem + 0.6vw);
+  padding-top: 5px;
+  text-align: center;
   margin: 0;
 }
 
@@ -381,6 +391,11 @@ form button.btn-primary:hover {
   padding-bottom: 5px;
   margin-bottom: 10px;
 }
+
+.mess-details{
+  text-align: center;
+}
+
 
 /*-----------------------------------
     1 - Featured
@@ -696,12 +711,12 @@ form button.btn-primary:hover {
     1 - Testimonials
 ------------------------------------*/
 .testimonial-and-clients {
-  background: url(../images/test-clients-bg.png) center center/cover no-repeat #26264b;
+  background: #26264b;
 }
 
 .testimonials {
   padding: 95px 0 85px;
-  color: #fff;
+  color: #000;
   border-bottom: 1px solid #26264b;
 }
 
@@ -786,18 +801,18 @@ form button.btn-primary:hover {
     1 - Footer
 ------------------------------------*/
 footer {
-  background: url(../images/footer-bg.png) center center/cover no-repeat #26264b;
+  background: #26264b;
 }
 
 /*-----------------------------------
     1 - Footer Widgets
 ------------------------------------*/
 .footer-widgets {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 .footer-widgets .col-md-6 .single-widget:not(:first-child) .widget-tiltle {
-  margin: 40px 0 30px;
+  margin-top: 20px ;
 }
 
 .single-widget {
@@ -808,7 +823,7 @@ footer {
   font-size: 17px;
   text-transform: uppercase;
   color: #fff;
-  margin-bottom: 45px;
+  margin-bottom: 0;
 }
 
 .single-widget i {
@@ -820,7 +835,7 @@ footer {
 }
 
 .single-widget .media {
-  margin-bottom: 20px;
+  margin-bottom: 0;
 }
 
 .contact-widget a {
@@ -956,7 +971,7 @@ span {
     1 - Foot Note
 ------------------------------------*/
 .foot-note {
-  padding: 35px 0;
+  padding: 15px 0;
   background-color: #007BFF;
   color: #26264b;
 }
@@ -971,4 +986,64 @@ span {
 
 .foot-note a.fh5-link {
   margin-left: 0;
+}
+.glass{
+  width: 1000px;
+  height: 500px;
+  background: #fff;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding-right: 50px;
+  border-radius: 0px 0px 0px 50px; 
+  margin: 20px;
+  box-shadow: 15px 15px #007bff;
+  padding: 10vh 5vw 10vh 5vw;
+}
+@media(max-width: 1200px){
+  .glass{
+    width: 800px;
+    height: 500px;
+  }
+}
+@media(max-width: 1100px){
+  .glass{
+    width: 700px;
+    height: 500px;
+  }
+}
+@media(max-width: 1000px){
+  .glass{
+    width: 550px;
+    height: 500px;
+  }
+}
+@media(max-width: 800px){
+  .glass{
+    width: 500px;
+    height: 500px;
+  }
+}
+@media(max-width: 700px){
+  .glass{
+    width: 400px;
+    height: 500px;
+  }
+}
+@media(max-width: 550px){
+  .glass{
+    width: 300px;
+    height: 500px;
+  }
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 70%;
 }

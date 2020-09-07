@@ -6,3 +6,13 @@
 ========================
 1. changed hover color for boxes and reloader
 2. changed the links color (see more color)
+
+6th September 
+========================
+1. Work on hostels logo - Ben
+2. Remove Background in warden rows - Ben
+3. place only 2 permanent pics in warden photo field rather than 4 moving ones- Senthuran
+4. Align class for mess details - Shakkthi
+5. Remove doj and phone number in RC list and remove image for them also change the heading to Resident Counselor - Darrshana
+6. Alter the footer - remove un necessary details - Darrshana
+7. set up a move top button - senthuran

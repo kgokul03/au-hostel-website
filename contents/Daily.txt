@@ -1,11 +1,11 @@
 4th September
 ========================
-1. git basics
+1. git basics - ben
 
 5th September 
 ========================
-1. changed hover color for boxes and reloader
-2. changed the links color (see more color)
+1. changed hover color for boxes and reloader - Ben
+2. changed the links color (see more color) - shakkthi
 
 6th September 
 ========================
@@ -16,3 +16,10 @@
 5. Remove doj and phone number in RC list and remove image for them also change the heading to Resident Counselor - Darrshana
 6. Alter the footer - remove un necessary details - Darrshana
 7. set up a move top button - senthuran
+
+7th September
+========================
+1. Update Rules & Regulations, favicon - aravindhan
+2. Add hostel office photo - aravindhan
+3. Remove the phone no. and link at top - aravindhan
+

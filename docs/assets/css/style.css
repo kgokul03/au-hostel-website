@@ -621,11 +621,16 @@ form button.btn-primary:hover {
     1 - Pricing Table
 ------------------------------------*/
 .pricing-table {
+  
   padding: 100px 0;
 }
 
+.top-buffer{
+  margin-top:85px;
+  }
+
 .single-pricing {
-  padding: 65px 0 40px;
+  padding: 15px 0 10px;
   margin-top: 23px;
   color: #fff;
   background: #26264b;
@@ -637,9 +642,9 @@ form button.btn-primary:hover {
 }
 
 .single-pricing span {
-  font-size: 12px;
+  font-size: 5px;
   text-transform: uppercase;
-  padding: 6px 15px;
+  padding: 3px 5px;
   border-radius: 15px;
   background-color: transparent;
   position: absolute;
@@ -654,14 +659,14 @@ form button.btn-primary:hover {
 
 .single-pricing .desc {
   color: #9d9d9d;
-  padding-bottom: 30px;
-  margin-bottom: 32px;
+  padding-bottom: 25px;
+  margin-bottom: 20px;
   border-bottom: 2px solid #2f2f2f;
   transition: all 0.2s ease-in-out;
 }
 
 .single-pricing .price {
-  font-size: 2rem;
+  font-size: 1rem;
   margin-bottom: 8px;
 }
 

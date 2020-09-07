@@ -22,4 +22,5 @@
 1. Update Rules & Regulations, favicon - aravindhan
 2. Add hostel office photo - aravindhan
 3. Remove the phone no. and link at top - aravindhan
+4. Features layout updated - darrshana
 

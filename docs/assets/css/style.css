@@ -621,7 +621,7 @@ form button.btn-primary:hover {
     1 - Pricing Table
 ------------------------------------*/
 .pricing-table {
-  
+
   padding: 100px 0;
 }
 
@@ -842,7 +842,7 @@ footer {
 
 .single-widget .media {
   margin-bottom: 0;
-  
+
 }
 
 
@@ -860,7 +860,7 @@ footer {
 }
 
 span {
-  color: #fff;
+  color: #777;
 }
 
 .recent-post-widget .rcnt-img {
@@ -1002,7 +1002,7 @@ span {
   overflow-x: hidden;
   overflow-y: auto;
   padding-right: 50px;
-  border-radius: 0px 0px 0px 50px; 
+  border-radius: 0px 0px 0px 50px;
   margin: 20px;
   box-shadow: 15px 15px #007bff;
   padding: 10vh 5vw 10vh 5vw;
@@ -1054,4 +1054,8 @@ span {
   cursor: pointer;
   padding: 15px;
   border-radius: 70%;
+}
+
+#text{
+display:none;;
 }

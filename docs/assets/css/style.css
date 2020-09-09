@@ -211,10 +211,13 @@ form button.btn-primary:hover {
 
 .hero .slide-content p {
   color: #170986;
+  text-align: justify;
+  text-justify: inter-word;
+  font-weight: bold;
   -webkit-transform: matrix(0.93128, 0, 0, 0.93128, 0, 0);
           transform: matrix(0.93128, 0, 0, 0.93128, 0, 0);
-  padding: 35px 0 35px 30px;
-  background-color: rgba(255, 255, 255, 0.51);
+  padding: 5vh 100px 5vh 5vw;
+  background-color: rgba(243, 233, 233, 0.801);
   border-top-right-radius: 100px;
   border-bottom-left-radius: 10px;
   margin-bottom: 0;

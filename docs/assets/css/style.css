@@ -184,6 +184,7 @@ form button.btn-primary:hover {
   overflow: hidden;
   position: relative;
   z-index: 0;
+  min-height: 50vh;
 }
 
 .hero .container {
@@ -200,13 +201,14 @@ form button.btn-primary:hover {
   color: #007BFF;
 }
 
-.hero .slide-content h1 {
+.hero h1 {
   color: #fff;
   text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.56);
   text-transform: uppercase;
   -webkit-transform: matrix(0.93128, 0, 0, 0.93128, 0, 0);
           transform: matrix(0.93128, 0, 0, 0.93128, 0, 0);
   font-weight: bold;
+  font-size: 4.5rem;
 }
 
 .hero .slide-content p {
@@ -286,33 +288,10 @@ form button.btn-primary:hover {
 .hero .texture {
   width: 100%;
   height: 100%;
-  background: url("../images/hero-texture.png") no-repeat center;
-  background-size: cover;
-  opacity: 0.4;
   position: absolute;
   top: 0;
   left: 0;
   z-index: -1;
-}
-
-.hero::after {
-  content: "";
-  width: 100%;
-  height: 2px;
-  background-color: rgba(255, 255, 255, 0.02);
-  position: absolute;
-  left: 0;
-  bottom: 29%;
-}
-
-.hero::before {
-  content: "";
-  width: 100%;
-  height: 2px;
-  background-color: rgba(255, 255, 255, 0.02);
-  position: absolute;
-  left: 0;
-  bottom: 58%;
 }
 
 /*-----------------------------------

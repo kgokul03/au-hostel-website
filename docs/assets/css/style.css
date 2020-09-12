@@ -45,7 +45,7 @@ header::after {
 }
 
 .nav-link {
-  font-family: "Rajdhani", sans-serif;
+  font-family: 'Arvo', serif;
   text-transform: uppercase;
 }
 
@@ -886,7 +886,7 @@ span {
   border-radius: 2px;
   background-color: #363636;
   font-size: 14px;
-  font-family: "Rajdhani", sans-serif;
+  font-family: 'Arvo', serif;
   font-weight: 700;
   margin: 10px 10px 0 0;
 }

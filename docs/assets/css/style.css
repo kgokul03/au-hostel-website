@@ -298,7 +298,7 @@ form button.btn-primary:hover {
     1 - CTA
 ------------------------------------*/
 .cta-content {
-  padding: 30px 0 90px;
+  padding: 30px 7vh 90px;
   color: #fff;
   background-color: #007bff;
   position: relative;

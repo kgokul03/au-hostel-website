@@ -41,7 +41,7 @@
   .navbar-collapse .nav-link::before {
     content: "\f0d8";
     font-family: FontAwesome;
-    color: #de1f1f;
+    color: #429dff;
     position: absolute;
     bottom: 7px;
     line-height: 0;
@@ -55,7 +55,7 @@
     content: "";
     width: 0;
     height: 4px;
-    background-color: #de1f1f;
+    background-color: #429dff;
     position: absolute;
     left: 50%;
     bottom: 0;
@@ -103,7 +103,7 @@
   }
   .cart:hover,
   .search-icon:hover {
-    color: #ee1515;
+    color: #429dff;
   }
   .search-icon {
     margin: 0 13px;

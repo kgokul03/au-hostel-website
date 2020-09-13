@@ -2,12 +2,12 @@
 ========================
 1. git basics - ben
 
-5th September 
+5th September
 ========================
 1. changed hover color for boxes and reloader - Ben
 2. changed the links color (see more color) - shakkthi
 
-6th September 
+6th September
 ========================
 1. Work on hostels logo - Ben
 2. Remove Background in warden rows - Ben
@@ -24,3 +24,38 @@
 3. Remove the phone no. and link at top - aravindhan
 4. Features layout updated - darrshana
 
+8th September
+========================
+1. Changed RC layout directed to new page - Shakkthi
+2. Changed another RC layout for alternate like expanding in new same page - Aravindhan
+3. Edit rules & regulation pdf and alter the link - Aravindhan
+
+9th September
+=========================
+1. Change the warden layout - aravind,senthuran
+
+10th September
+=========================
+1. 
+
+11th September
+=========================
+1. footer - ben
+2. hero background - ben
+3. facilities - ben
+4. compressed images - ben
+
+12th September
+=========================
+1. hero content removed, nav bar, fee section - ben
+
+13th September 
+=========================
+1. new hostel page - dharshana
+2. add templates for gallery - aravind
+3. font size changed - ben
+4. dean message,warden template,about hostels message edit - senthuran
+
+
+14th September
+=========================

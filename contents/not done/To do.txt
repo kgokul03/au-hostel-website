@@ -1,2 +1,3 @@
-1. See more button for RC - seperate for Boys and Girls Hostel RC's
-2. Allign Hostel block names 
+1. Gallery update
+2. update footer for RC page
+3. link the pages with nave bar and other pages appropriately

@@ -33,18 +33,29 @@
 9th September
 =========================
 1. Change the warden layout - aravind,senthuran
-2. 
 
 10th September
 =========================
 1. 
-2. 
 
 11th September
 =========================
 1. footer - ben
 2. hero background - ben
 3. facilities - ben
+4. compressed images - ben
 
 12th September
+=========================
+1. hero content removed, nav bar, fee section - ben
+
+13th September 
+=========================
+1. new hostel page - dharshana
+2. add templates for gallery - aravind
+3. font size changed - ben
+4. dean message,warden template,about hostels message edit - senthuran
+
+
+14th September
 =========================

@@ -7763,7 +7763,7 @@ button.bg-dark:focus {
 }
 
 .p-3 {
-  padding: 1rem 1rem 1rem 0 !important;
+  padding: 0 1rem 1rem 0 !important;
   /*padding: 1rem !important;*/
 }
 

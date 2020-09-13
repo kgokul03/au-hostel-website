@@ -409,7 +409,7 @@ form button.btn-primary:hover {
 }
 
 .featured p {
-  margin: 35px 0 53px;
+  margin:0 0 53px;
 }
 
 .featured .media i {
@@ -1265,3 +1265,13 @@ display:none;;
   }
 }
 /*chages i(aravindhan) made in warden section ends here*/
+/*changes by senthuran start here*/
+/*#more {display: none;}
+#m {display: none;}
+button{
+  outline: none;
+  border: none;
+  background: transparent;
+  color:#4755f5;
+}*/
+/*end*/

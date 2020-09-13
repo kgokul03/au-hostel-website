@@ -25,7 +25,7 @@
     1 - Header
 ------------------------------------*/
 header {
-  background-color: rgba(26, 10, 56, 0.53);
+  background-color: #26264b;
   color: #fff;
   z-index: 1000;
 }
@@ -45,7 +45,6 @@ header::after {
 }
 
 .nav-link {
-  font-family: "Rajdhani", sans-serif;
   text-transform: uppercase;
 }
 
@@ -184,6 +183,7 @@ form button.btn-primary:hover {
   overflow: hidden;
   position: relative;
   z-index: 0;
+  min-height: 50vh;
 }
 
 .hero .container {
@@ -200,13 +200,14 @@ form button.btn-primary:hover {
   color: #007BFF;
 }
 
-.hero .slide-content h1 {
+.hero h1 {
   color: #fff;
   text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.56);
   text-transform: uppercase;
   -webkit-transform: matrix(0.93128, 0, 0, 0.93128, 0, 0);
           transform: matrix(0.93128, 0, 0, 0.93128, 0, 0);
   font-weight: bold;
+  font-size: 4.5rem;
 }
 
 .hero .slide-content p {
@@ -286,40 +287,17 @@ form button.btn-primary:hover {
 .hero .texture {
   width: 100%;
   height: 100%;
-  background: url("../images/hero-texture.png") no-repeat center;
-  background-size: cover;
-  opacity: 0.4;
   position: absolute;
   top: 0;
   left: 0;
   z-index: -1;
 }
 
-.hero::after {
-  content: "";
-  width: 100%;
-  height: 2px;
-  background-color: rgba(255, 255, 255, 0.02);
-  position: absolute;
-  left: 0;
-  bottom: 29%;
-}
-
-.hero::before {
-  content: "";
-  width: 100%;
-  height: 2px;
-  background-color: rgba(255, 255, 255, 0.02);
-  position: absolute;
-  left: 0;
-  bottom: 58%;
-}
-
 /*-----------------------------------
     1 - CTA
 ------------------------------------*/
 .cta-content {
-  padding: 30px 0 90px;
+  padding: 30px 7vh 90px;
   color: #fff;
   background-color: #007bff;
   position: relative;
@@ -409,7 +387,7 @@ form button.btn-primary:hover {
 }
 
 .featured p {
-  margin: 35px 0 53px;
+  margin:0 0 53px;
 }
 
 .featured .media i {
@@ -907,7 +885,7 @@ span {
   border-radius: 2px;
   background-color: #363636;
   font-size: 14px;
-  font-family: "Rajdhani", sans-serif;
+  font-family: 'Arvo', serif;
   font-weight: 700;
   margin: 10px 10px 0 0;
 }
@@ -1264,4 +1242,18 @@ display:none;;
     padding-left: 25px;
   }
 }
+.space{
+  margin-top:15%;
+  
+}
 /*chages i(aravindhan) made in warden section ends here*/
+/*changes by senthuran start here*/
+/*#more {display: none;}
+#m {display: none;}
+button{
+  outline: none;
+  border: none;
+  background: transparent;
+  color:#4755f5;
+}*/
+/*end*/

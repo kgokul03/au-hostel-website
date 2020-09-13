@@ -31,8 +31,7 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: "Open Sans", sans-serif;
-  --font-family-monospace: "Rajdhani", sans-serif;
+  --font-family: 'Arvo', serif;
 }
 
 *,
@@ -7764,7 +7763,8 @@ button.bg-dark:focus {
 }
 
 .p-3 {
-  padding: 1rem !important;
+  padding: 0 1rem 1rem 0 !important;
+  /*padding: 1rem !important;*/
 }
 
 .pt-3,

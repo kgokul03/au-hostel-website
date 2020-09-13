@@ -2,12 +2,12 @@
 ========================
 1. git basics - ben
 
-5th September 
+5th September
 ========================
 1. changed hover color for boxes and reloader - Ben
 2. changed the links color (see more color) - shakkthi
 
-6th September 
+6th September
 ========================
 1. Work on hostels logo - Ben
 2. Remove Background in warden rows - Ben
@@ -30,8 +30,21 @@
 2. Changed another RC layout for alternate like expanding in new same page - Aravindhan
 3. Edit rules & regulation pdf and alter the link - Aravindhan
 
-
 9th September
 =========================
-1. Change the warden layout
+1. Change the warden layout - aravind,senthuran
 2. 
+
+10th September
+=========================
+1. 
+2. 
+
+11th September
+=========================
+1. footer - ben
+2. hero background - ben
+3. facilities - ben
+
+12th September
+=========================

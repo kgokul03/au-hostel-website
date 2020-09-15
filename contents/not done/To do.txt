@@ -1,3 +1,5 @@
 1. Gallery update
-2. update footer for RC page
-3. link the pages with nave bar and other pages appropriately
+2. link the pages with nave bar and other pages appropriately
+3. Form page to download forms
+4. update Dean message
+5. Work on hero background

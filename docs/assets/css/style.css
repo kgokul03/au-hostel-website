@@ -319,6 +319,7 @@ form button.btn-primary:hover {
 .cta-content .subscribe-btn {
   align-self: flex-end;
   margin-right: 30px;
+  margin-top: 30px;
 }
 
 .cta-content .subscribe-btn a:hover{

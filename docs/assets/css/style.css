@@ -319,6 +319,7 @@ form button.btn-primary:hover {
 .cta-content .subscribe-btn {
   align-self: flex-end;
   margin-right: 30px;
+  margin-top: 30px;
 }
 
 .cta-content .subscribe-btn a:hover{
@@ -653,10 +654,12 @@ form button.btn-primary:hover {
 
 .single-pricing p {
   color: #ddd;
+
 }
 
 .single-pricing p:last-of-type {
   margin-bottom: 25px;
+
 }
 
 .single-pricing svg {
@@ -1244,7 +1247,7 @@ display:none;;
 }
 .space{
   margin-top:15%;
-  
+
 }
 /*chages i(aravindhan) made in warden section ends here*/
 /*changes by senthuran start here*/

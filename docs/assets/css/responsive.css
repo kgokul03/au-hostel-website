@@ -125,18 +125,6 @@
     border-top-right-radius: 200px;
     border-bottom-left-radius: 200px;
   }
-  .cta-content1 {
-    border-top-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-    border-top-left-radius: 200px;
-    border-bottom-right-radius: 200px;
-  }
-  .cta-content1::after {
-    border-top-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-    border-top-left-radius: 200px;
-    border-bottom-right-radius: 200px;
-  }
   .cta-content .subscribe-btn {
     align-self: flex-end;
     margin-right: 30px;

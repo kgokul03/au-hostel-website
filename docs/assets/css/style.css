@@ -173,7 +173,21 @@ form button.btn-primary:hover {
   background-color: #fff;
   color: #007BFF;
 }
-
+/* -------------------------------------
+TABLE FOR RULES
+------------------------------------- */
+.rules-table{
+  /* border:1px solid black; */
+  border-collapse:collapse;
+  text-align: center;
+}
+.rules-head{
+  border-collapse:collapse;
+  text-align: center;
+}
+td{
+  display: table-cell;
+}
 /*-----------------------------------
     1 - Hero
 ------------------------------------*/

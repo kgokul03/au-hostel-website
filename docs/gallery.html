@@ -441,19 +441,20 @@
             <div class="container">
                 <div class="cta-content d-xl-flex align-items-center justify-content-around text-center text-xl-left">
                     <div class="content" data-aos="fade-right" data-aos-delay="200">
-                        <h2>Student links</h2>
-                        <p>All the links will be posted here.</p>
+                        <h2 class="student-link">Student links</h2>
+                        <p class="student-link-p">All the links will be posted here.</p>
                     </div>
                     <div class="subscribe-btn" data-aos="fade-left" data-aos-delay="400" data-aos-offset="0">
-                        <a href="https://ceghostel.in/" class="btn btn-primary">HOSTEL FEE</a>
+                        <a href="https://ceghostel.in/" class="hostel-fee btn btn-primary">HOSTEL FEE</a>
                     </div>
                     <div class="subscribe-btn" data-aos="fade-left" data-aos-delay="400" data-aos-offset="0">
-                        <a href="forms.html" class="btn btn-primary">FORMS</a>
+                        <a href="forms.html" class="form btn btn-primary">FORMS</a>
                     </div>
                 </div>
             </div>
         </section>
-  <footer id="contact">
+
+        <footer id="contact">
 	<!-- Widgets Start -->
 	<div class="footer-widgets">
 	  <br>
@@ -557,6 +558,47 @@
         <script src="js/jquery.ajaxchimp.min.js"></script>
         <script src="js/mail-script.js"></script>
         <script src="js/theme.js"></script>
+        <script src="assets/js/jquery-3.3.1.js"></script>
+        <!--Plugins-->
+        <script src="assets/js/bootstrap.bundle.js"></script>
+        <script src="assets/js/loaders.css.js"></script>
+        <script src="assets/js/aos.js"></script>
+        <script src="assets/js/swiper.min.js"></script>
+        <script src="assets/js/lightgallery-all.min.js"></script>
+        <!--Template Script-->
+        <script src="assets/js/main.js"></script>
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="assets/images/aricon1.png" style="border-radius: 70%;"></button>
+        <script>
+        var mybutton = document.getElementById("myBtn");
+        window.onscroll = function() {scrollFunction()};
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+         } else {
+            mybutton.style.display = "none";
+          }
+        }
+        function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+        }
+        </script>
+        <script>
+        $(document).ready(function() {
+        $("#toggle").click(function() {
+        var elem = $("#toggle").text();
+        if (elem == "Read More") {
+          //Stuff to do when btn is in the read more state
+          $("#toggle").text("Read Less");
+          $("#text").slideDown();
+        } else {
+          //Stuff to do when btn is in the read less state
+          $("#toggle").text("Read More");
+          $("#text").slideUp();
+        }
+        });
+        });
+        </script>
 
   </body>
 

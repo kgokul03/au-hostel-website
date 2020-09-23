@@ -62,3 +62,40 @@
 1. ALter RC names - senthuran
 2. Alter footer in RC - senthuran
 3. Corrections in warden message - senthuran
+
+17-18th September 
+========================
+1. Sample Gallery page addedd - daarshana
+2. Deputy warden details added - senthuran
+3. Created a forms page - aravindhan
+4. Works on gallery - shakkthi
+
+19th September 
+==========================
+1. Created a Rules page - aravindhan
+2. alter student links - ben
+3. Works on gallery - daarshana & Shakkthi
+
+20th September 
+==========================
+1. Modifiacations to Rules page - aravindhan
+2. content changed and hostel icon - senthuran
+3. forms and fee link in index and hero background - ben
+4. sorting in gallery page - daarshana
+5. gallery link and index altered for gallery - darrshana
+6. tables for mess timings - shakkthi
+
+21st September 
+===========================
+1. map,mess,dean,navbar content modification in home page and some content modifications - senthuran
+2. Staffs list updated in administration page - senthuran
+3. made responsive tables and nav bar fix and alter form contents - aravindhan
+4. gallery nav bar fix and update gallery footer - ben
+5. update header and footer to every page - shakkthi
+
+22nd September 
+===========================
+1. index page div order changed, mess colour changed, update nav bar links in index - senthuran
+2. Gallery fix - ben
+3. Rules section table altered - daarshana
+4. Nav bar links updated for all sub pages - senthuran

@@ -36,7 +36,6 @@
 		<!-- main css -->
 
 		<link rel="stylesheet" href="css/style.css">
-
         <link rel="stylesheet" href="css/responsive.css">
     </head>
     <body>
@@ -45,7 +44,7 @@
         <div class="css-loader">
             <div class="loader-inner line-scale d-flex align-items-center justify-content-center"></div>
         </div>
-        <header class=" position-absolute w-100">
+        <header class="w-100 pos">
             <div class="container">
                 <nav class="navbar navbar-expand-md navbar-light">
                     <a class="navbar-brand" href="index.html"><img src="assets/images/au img 4 m.png" alt=""><h3>CEG HOSTELS</h3></a>
@@ -101,13 +100,13 @@
         <!--================End Home Banner Area =================-->
 
         <!--================Home Gallery Area =================-->
-        <section class="home_gallery_area p_120 text-center">
+        <section class="home_gallery_area p_120  text-center">
         	<div class="container">
         		<div class="isotope_fillter">
         			<ul class="gallery_filter list">
 						<li class="active" data-filter="*"><a href="#">All</a></li>
-						<li  data-filter=".b"><a href="#">Boys</a></li>
-						<li data-filter=".ap"><a href="#">Girls</a></li>
+						<li  data-filter=".b" ><a href="#">Boys</a></li>
+						<li data-filter=".ap" ><a href="#">Girls</a></li>
 						<li data-filter=".unp"><a href="#">Facilities</a></li>
 						<li data-filter=".unv"><a href="#">Mess</a></li>
 					</ul>
@@ -522,12 +521,7 @@
 
 
   <script src="assets/js/jquery-3.3.1.js"></script>
-  <!--Plugins-->
-  <script src="assets/js/bootstrap.bundle.js"></script>
-  <script src="assets/js/loaders.css.js"></script>
-  <script src="assets/js/aos.js"></script>
-  <script src="assets/js/swiper.min.js"></script>
-  <script src="assets/js/lightgallery-all.min.js"></script>
+  
   <!--Template Script-->
   <script src="assets/js/main.js"></script>
   <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="assets/images/aricon1.png" style="border-radius: 70%;"></button>
@@ -551,7 +545,7 @@
         <script src="js/bootstrap.min.js"></script>
         <script src="js/stellar.js"></script>
         <script src="vendors/lightbox/simpleLightbox.min.js"></script>
-        <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+        <script src="docs/vendors/nice-select/js/jquery.nice-select.min.js"></script>
         <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
         <script src="vendors/isotope/isotope-min.js"></script>
         <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
@@ -560,29 +554,13 @@
         <script src="js/theme.js"></script>
         <script src="assets/js/jquery-3.3.1.js"></script>
         <!--Plugins-->
-        <script src="assets/js/bootstrap.bundle.js"></script>
+        <script src="docs/assets/js/bootstrap.bundle.js"></script>
         <script src="assets/js/loaders.css.js"></script>
-        <script src="assets/js/aos.js"></script>
+        <script src="docs/assets/js/aos.js"></script>
         <script src="assets/js/swiper.min.js"></script>
         <script src="assets/js/lightgallery-all.min.js"></script>
-        <!--Template Script-->
-        <script src="assets/js/main.js"></script>
-        <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="assets/images/aricon1.png" style="border-radius: 70%;"></button>
-        <script>
-        var mybutton = document.getElementById("myBtn");
-        window.onscroll = function() {scrollFunction()};
-        function scrollFunction() {
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            mybutton.style.display = "block";
-         } else {
-            mybutton.style.display = "none";
-          }
-        }
-        function topFunction() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-        }
-        </script>
+        
+</script>
         <script>
         $(document).ready(function() {
         $("#toggle").click(function() {

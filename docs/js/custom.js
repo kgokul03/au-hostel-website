@@ -6,7 +6,7 @@
 	-------------------------------------------------------------------------------*/
 
 	//* Navbar Fixed  
-    function navbarFixed(){
+    /*function navbarFixed(){
         if ( $('.header_area').length ){ 
             $(window).scroll(function() {
                 var scroll = $(window).scrollTop();   
@@ -19,7 +19,7 @@
         };
     };
     navbarFixed();
-    
+    */
     function testimonialSlider(){
         if ( $('.testimonial_slider').length ){
             $('.testimonial_slider').owlCarousel({

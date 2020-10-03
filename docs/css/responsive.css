@@ -3,10 +3,10 @@
 		right: 0px; 
 	}
 }
-@media (max-width:1199px){
+/*@media (max-width:1199px){
 	/* Main Menu Area css
 	============================================================================================ */
-   .header_area .navbar .search {
+   /*.header_area .navbar .search {
 		margin-left: 30px;
 	}
 	/* End Main Menu Area css
@@ -14,7 +14,7 @@
 	
 	/* Home Banner Area css
 	============================================================================================ */
-	.home_banner_area {
+	/*.home_banner_area {
 		min-height: 700px;
 	}
 	.home_banner_area .banner_inner {
@@ -25,12 +25,12 @@
 	}
 	/* End Home Banner Area css
 	============================================================================================ */
-}
+}*/
 
-@media (max-width:991px){
+/*@media (max-width:991px){
 	/* Main Menu Area css
 	============================================================================================ */
-    .navbar-toggler {
+  /*  .navbar-toggler {
         border: none;
         border-radius: 0px;
         padding: 0px;
@@ -61,7 +61,7 @@
 		display: block;
 		width: 25px;
 		height: 3px;
-		background: #fcdc00;
+		background: #000000;
 		margin: auto;
 		margin-bottom: 4px;
 		transition: all 400ms linear;
@@ -96,7 +96,7 @@
 	}
 	.header_area .navbar .nav .nav-item {
 		margin-right: 0px;
-	}
+	}*/
 	/* End Main Menu Area css
 	============================================================================================ */
 	.c_feedback_text {

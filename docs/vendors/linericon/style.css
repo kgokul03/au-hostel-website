@@ -9,7 +9,10 @@
 	font-weight: normal;
 	font-style: normal;
 }
-
+@media (min-width: 576px){
+.pos{
+	position:absolute;
+}}
 .lnr {
 	font-family: 'Linearicons-Free';
 	speak: none;

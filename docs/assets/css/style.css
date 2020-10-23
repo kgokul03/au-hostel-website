@@ -1035,6 +1035,10 @@ span {
     height: 500px;
   }
 }
+@media (min-width: 576px){
+  .pos{
+    position:absolute;
+  }}
 @media(max-width: 550px){
   .glass{
     width: 300px;

@@ -4592,6 +4592,11 @@ input[type="button"].btn-block {
     grid-template-columns:repeat(2,1fr) ;
   }
 }
+@media (min-width: 500px){
+  .ewarden{
+  float: left;
+}
+}
 .hostel-body {
   flex: 1 1 auto;
   text-align: justify;

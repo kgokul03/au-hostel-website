@@ -4599,7 +4599,7 @@ input[type="button"].btn-block {
 }
 .hostel-body {
   flex: 1 1 auto;
-  text-align: justify;
+  text-align: left;
 }
 /*end of changes*/
 .card-group {

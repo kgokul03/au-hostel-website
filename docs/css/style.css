@@ -3598,6 +3598,27 @@ h1, h2, h3, h4, h5, h6 {
     max-height:300px;
 }
 
+/* .single-widget i{
+  color: #007bff;
+}
+
+.fa-fw.fa.fa-map-marker.ic{
+  width: 1.28571429em;
+  text-align: center;
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-family: "FontAwesome";
+} */
+
+/* .fa{
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+} */
+
 /* End Footer Area css
 ============================================================================================ */
 /*---------------------------------------------------- */

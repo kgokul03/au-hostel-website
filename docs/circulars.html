@@ -66,25 +66,25 @@
           </nav>
       </div>
   </header>
-  </section>
   <section class="pricing-table" id="forms">
-      <div class="container">
-          <div class="title text-center">
+    <div class="container">
+        <div class="title text-center">
 
-              <h1 class="title-blue">Circulars</h1>
-          </div>
-          <div class="row no-gutters d-flex justify-content-center top-buffer " >
+            <h1 class="title-blue">Circulars</h1>
+        </div>
+        <div class="row no-gutters d-flex justify-content-center top-buffer " >
 
-            <ul>
-        <b>
-            <a href="assets/documents/UG NEW ADMISSION DECLARATION FORM 2020.pdf" target="_blank"><li>UG New Admission Declaration Form 2020</li><br></a>
-            <a href="assets/documents/UG NEW ADMISSION PROCEDURE 2020.pdf" target="_blank"><li>UG New Admission Procedure Form 2020</li><br></a>
-            <a href="assets/documents/UG & M.Sc5 HOSTEL FEES & DEPOSIT 2020-21.pdf" target="_blank"><li>UG & M.Sc5 Hostel Fees & Deposit 2020-21</li><br></a>
-            <a href="assets/documents/HOSTEL VACATE CIRCULAR FOR FINAL YEAR STUDENTS UG & PG - 2020.pdf" target="_blank"><li>Hostel Vacate Circular For Final Year Students UG & PG</li><br></a>
-            </ul>
-              </div>
-      </div>
-  </section>
+          <ul>
+      <b>
+          <a href="assets/documents/UG NEW ADMISSION DECLARATION FORM 2020.pdf" target="_blank"><li>UG New Admission Declaration Form 2020</li><br></a>
+          <a href="assets/documents/UG NEW ADMISSION PROCEDURE 2020.pdf" target="_blank"><li>UG New Admission Procedure Form 2020</li><br></a>
+          <a href="assets/documents/UG & M.Sc5 HOSTEL FEES & DEPOSIT 2020-21.pdf" target="_blank"><li>UG & M.Sc5 Hostel Fees & Deposit 2020-21</li><br></a>
+          <a href="assets/documents/HOSTEL VACATE CIRCULAR FOR FINAL YEAR STUDENTS UG & PG - 2020.pdf" target="_blank"><li>Hostel Vacate Circular For Final Year Students UG & PG</li><br></a></b>
+          </ul>
+            </div>
+    </div>
+</section>
+  
   <section class="cta cta2" data-aos="fade-up" data-aos-delay="0">
       <div class="container">
           <div class="cta-content d-xl-flex align-items-center justify-content-around text-center text-xl-left">
@@ -102,13 +102,11 @@
       </div>
   </section>
 
-
-
-<footer id="contact">
+  <footer id="contact">
     <!-- Widgets Start -->
     <div class="footer-widgets">
         <br>
-        <div class="container "  >
+        <div class="container">
             <div class="row">
                 <div class="col-md-6 col-xl-6 d-flex">
                     <div class="single-widget contact-widget" data-aos="fade-up" data-aos-delay="0">
@@ -117,19 +115,23 @@
                             <div class="media-body ml-3">
                                 <h6>Address</h6>
                                 12, Sardar Patel Rd,<br/>
-                                Anna University,<br/>Guindy,Chennai,<br/>Tamil Nadu-600025<br>
+                                Anna University,<br/>Guindy,Chennai,<br/>Tamil Nadu-600025<br/>
                                 </div>
                         </div>
-                        <div class="media mt-2">
-                            <i class="fa-fw fa fa-ambulance"></i>
-                            <div class="media-body ml-3">
-                                        <h6>CEG Hostel Ambulance</h6>
-                                        <a href="tel:+91 9445404400">
-                                            <span>+91 9445404400</span>
-                                        </a>
-                    </div>
-                </div></div></div>
 
+
+                     <div class="media mt-2">
+                    <i class="fa-fw fa fa-ambulance"></i>
+                    <div class="media-body ml-3">
+                                <h6>CEG Hostel Ambulance</h6>
+                                <a href="tel:+91 9445404400">
+                                    <span>+91 9445404400</span>
+                                </a>
+                   </div>
+                   </div>
+                   </div>
+
+                </div>
                 <div class="col-md-6 col-xl-6 d-flex">
                     <div class="single-widget contact-widget" data-aos="fade-up" data-aos-delay="0">
                         <div class="media mt-2">
@@ -158,7 +160,6 @@
                         </div>
                     </div>
                 </div>
-
              </div>
         </div></div>
     <!-- Widgets End -->
@@ -176,6 +177,7 @@
     </div>
     <!-- Foot Note End -->
 </footer>
+<!-- Footer Endt -->
 <script src="assets/js/jquery-3.3.1.js"></script>
 <!--Plugins-->
 <script src="assets/js/bootstrap.bundle.js"></script>
@@ -201,6 +203,25 @@ document.body.scrollTop = 0;
 document.documentElement.scrollTop = 0;
 }
 </script>
+<script>
+$(document).ready(function() {
+$("#toggle").click(function() {
+var elem = $("#toggle").text();
+if (elem == "Read More") {
+  //Stuff to do when btn is in the read more state
+  $("#toggle").text("Read Less");
+  $("#text").slideDown();
+} else {
+  //Stuff to do when btn is in the read less state
+  $("#toggle").text("Read More");
+  $("#text").slideUp();
+}
+});
+});
+</script> 
+
+
+
 </body>
 
 </html>

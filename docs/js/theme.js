@@ -21,7 +21,7 @@
                     animationOptions: {
                         duration: 750,
                         easing: 'linear'
-                    }
+                    },filter:'.b'
                 }); 
             });
 			

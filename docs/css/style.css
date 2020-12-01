@@ -81,6 +81,9 @@ body {
   font-weight: 300;
   color: #777777;
 }
+.texture{
+  background-image: url('assets/images/crissxcross.png');
+}
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
@@ -571,7 +574,13 @@ button:focus {
   -o-transition: all 300ms ease;
   transition: all 300ms ease;
 }
-
+.subtitle{
+  color:#26264b;
+  margin-top: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size:medium;
+}
 .h_gallery_item img {
   width: 100%;
 }

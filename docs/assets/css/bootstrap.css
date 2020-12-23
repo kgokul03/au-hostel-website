@@ -4550,7 +4550,7 @@ input[type="button"].btn-block {
     margin-left: 15px;
   }
 }
-/*changes made by senthuran*/
+/*changes start*/
 .cards {
   display: grid;
   grid-gap: 2em;
@@ -4598,6 +4598,32 @@ input[type="button"].btn-block {
 }
 }
 .hostel-body {
+  flex: 1 1 auto;
+  text-align: left;
+}
+.hos {
+  display: grid;
+  grid-gap: 2em;
+}
+
+.hos .hoscarded {
+  margin-bottom: 15px;
+  box-shadow: 10px 10px 30px rgba(0,0,0,0.3);
+  border-radius: .3em;
+}
+@media (min-width: 992px){
+  .hos{
+    margin-left: 250px;
+    margin-right: 250px;
+    grid-template-columns:repeat(1,1fr) ;
+  }
+}
+@media (min-width: 500px){
+  .ewarden{
+  float: left;
+}
+}
+.hos-body {
   flex: 1 1 auto;
   text-align: left;
 }

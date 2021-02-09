@@ -1,0 +1,6 @@
+Update Dean's message
+====================
+1. Replace name of Dean.
+2. Load web optimised jpg image in assets/images/
+3. Update image path in src tag
+4. Change the contents of the message. Use <p style="color:black;"></p> tags to enclose paragraphs.
